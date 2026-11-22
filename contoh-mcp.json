@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "kasir": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "mcp-sqlite", "C:/Users/kamu/web-pertama/kopi-senja.db"]
+    },
+    "browser": {
+      "command": "cmd",
+      "args": ["/c", "npx", "@playwright/mcp@latest"]
+    }
+  }
+}
